@@ -1,0 +1,24 @@
+import * as React from 'react';
+import { StandardProps } from '..';
+
+export interface ButtonBaseProps extends StandardProps<
+  React.AnchorHTMLAttributes<HTMLAnchorElement> & React.ButtonHTMLAttributes<HTMLButtonElement>,
+  ButtonBaseClassKey
+> {
+  centerRipple?: boolean;
+  component?: string | React.ComponentType<ButtonBaseProps>;
+  disableRipple?: boolean;
+  focusRipple?: boolean;
+  keyboardFocusedClassName?: string;
+  onKeyboardFocus?: React.FocusEventHandler<any>;
+  rootRef?: React.Ref<any>;
+}
+
+export type ButtonBaseClassKey =
+  | 'root'
+  | 'disabled'
+  ;
+
+declare const ButtonBase: React.ComponentType<ButtonBaseProps>;
+
+export default ButtonBase;

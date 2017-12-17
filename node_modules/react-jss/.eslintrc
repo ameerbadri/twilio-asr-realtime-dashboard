@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint-config-jss",
+  "globals": {
+    "jss": true,
+    "sheets": true,
+    "createJss": true,
+    "injectSheet": true,
+    "reactJss": true,
+    "SheetsRegistry": true,
+    "ThemeProvider": true,
+    "JssProvider": true,
+    "createGenerateClassName": true,
+    "node": true,
+    "render": true,
+    "unmountComponentAtNode": true
+  }
+}

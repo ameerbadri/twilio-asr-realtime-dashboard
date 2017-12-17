@@ -1,0 +1,18 @@
+{
+    "files": [
+        "src/*.ts",
+        "src/**/*.ts"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "declaration": true,
+        "noImplicitAny": false,
+        "preserveConstEnums": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es6",
+        "lib": [ "es7", "dom" ],
+        "outDir": "lib"
+    }
+}

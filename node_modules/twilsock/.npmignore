@@ -1,0 +1,5 @@
+.travis.yml
+.babelrc
+dist/docs
+src/
+test/
