@@ -7,11 +7,11 @@
     "env": {
         "TWILIO_ACCOUNT_SID": {
             "description": "Your Twilio Account SID",
-            "value": "your_twilio_auth_token"
+            "value": "your_twilio_account_sid"
         },
         "TWILIO_AUTH_TOKEN": {
             "description": "Your Twilio Auth Token",
-            "value": "your_twilio_sync_service_id"
+            "value": "your_twilio_auth_token"
         },
         "TWILIO_API_KEY": {
             "description": "Your Twilio API Key",
