@@ -1,0 +1,33 @@
+{
+    "name": "Twilio ASR IVR Dashboard",
+    "description": "Twilio ASR and Intent IVR Dashboard",
+    "repository": "https://github.com/ameerbadri/twilio-asr-realtime-dashboard",
+    "logo": "http://presos.jamesward.com/practicing_continuous_delivery/assets/python.png",
+    "keywords": ["python", "twilio", "ivr", "asr", "dashboard"],
+    "env": {
+        "TWILIO_ACCOUNT_SID": {
+            "description": "Your Twilio Account SID",
+            "value": "your_twilio_auth_token"
+        },
+        "TWILIO_AUTH_TOKEN": {
+            "description": "Your Twilio Auth Token",
+            "value": "your_twilio_sync_service_id"
+        },
+        "TWILIO_API_KEY": {
+            "description": "Your Twilio API Key",
+            "value": "your_twilio_api_key"
+        },
+        "TWILIO_API_SECRET": {
+            "description": "Your Twilio API Secret",
+            "value": "twilio_api_secret"
+        },                    
+        "TWILIO_SYNC_SERVICE_ID": {
+            "description": "Your Twilio Sync Sercice ID",
+            "value": "your_twilio_sync_service_id"
+        },
+        "APIAPI_CLIENT_ACCESS_KEY": {
+            "description": "Your API.AI Bot Client Access Key",
+            "value": "your_apiai_client_access_key"
+        }
+   }
+  }
