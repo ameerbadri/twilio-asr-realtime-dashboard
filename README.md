@@ -1,8 +1,8 @@
 # Twilio ASR and Intent Realtime Dashboard
 
-This demo is about the power of using Twilio realtime Automated Speech Recoginition (ASR) and Intent analysis system (Dialogflow) in an IVR. The results of the ASR and Intent analysis are displayed in an dashboard using Twilio Sync. The practical aspect of this demo is to show the following capabilities:
+This demo is about the power of using Twilio realtime Automated Speech Recoginition (ASR) and Intent analysis system (Dialogflow) in an IVR. The results of the ASR and Intent analysis are displayed in a dashboard using Twilio Sync. The practical aspect of this demo is to show the following capabilities:
 1) The awesome accuracy and the realtime nature of ASR
-2) Ability of using a Bot system for Intent analysis
+2) Using a 3rd party Bot system for Intent analysis
 3) Visualising the derived information in a dashboard
 4) Importantly, companies can easliy and cost effectively adopt modern speech recoginiton technologies and augment into their existing contact centres.
 
@@ -40,7 +40,7 @@ You'll need following accounts:
 2) You'll need the Twilio Credentials and Sync Service ID during the Heroku app install
 
 ### Create a Sync Map (ASRBotEvents)
-We use the Sync Map object to store call details along with ASR and Intents. This map is subsribed by the frontend dashboard.
+Sync Map object is used to store call details along with ASR and Intents. This map is subscribed by the frontend dashboard.
 Run the following CURL command:
 curl -X POST https://sync.twilio.com/v1/Services/<SYNC_SERVICE_ID>/Maps \
  -d 'UniqueName=ASRBotEvents' \
