@@ -1,11 +1,10 @@
 # Twilio ASR and Intent Realtime Dashboard
 
-This is a quick demo about the power of using Twilio real-time Automated Speech Recoginition (ASR) in an IVR and passing it to an Intent analysis systenm (Dialogflow). The results of the ASR and Intent analysis are displayed in an dashboard using Twilio Sync. The practical aspect of this demo is to show the following capabilities:
-1) The awesome accuracy and the real-time nature of ASR
+This demo is about the power of using Twilio realtime Automated Speech Recoginition (ASR) and Intent analysis system (Dialogflow) in an IVR. The results of the ASR and Intent analysis are displayed in an dashboard using Twilio Sync. The practical aspect of this demo is to show the following capabilities:
+1) The awesome accuracy and the realtime nature of ASR
 2) Ability of using a Bot system for Intent analysis
-3) Visualising the derived information in a realtime dashboard
-4) This information can be passed on to Taskrouter for contextual routing of the customer call.  Its not impelemented in this demo.
-5) Most importantly, companies should embrace modern technologies that can be easily augmented into their existing contact centres. And get rid of their functionally limited, and costly legacy DTMF and Speech to Text engines in IVRs.
+3) Visualising the derived information in a dashboard
+4) Importantly, companies can easliy and cost effectively adopt modern speech recoginiton technologies and augment into their existing contact centres.
 
 ## Realtime ASR and Intent Dashboard
 
@@ -39,6 +38,14 @@ You'll need following accounts:
 1.2) API Key and Secret (https://www.twilio.com/console/runtime/api-keys)
 1.3) Create a Sync Service (https://www.twilio.com/console/sync/services)
 2) You'll need the Twilio Credentials and Sync Service ID during the Heroku app install
+
+### Create a Sync Map (ASRBotEvents)
+We use the Sync Map object to store call details along with ASR and Intents. This map is subsribed by the frontend dashboard.
+Run the following CURL command:
+curl -X POST https://sync.twilio.com/v1/Services/<SYNC_SERVICE_ID>/Maps \
+ -d 'UniqueName=ASRBotEvents' \
+ -u 'YOUR_TWILIO_ACCOUNT_SID:YOUR_TWILIO_AUTH_TOKEN'
+
 
 ### One Click Heroku Deploy of Web App
 This will install the wep application and all the dependencies on Heroku (login required). As part of the installation, the Heroku app will walk you through configuration of environment variables.  Please click on the following button to deploy the application.
