@@ -1,6 +1,6 @@
 # Twilio ASR and Intent Realtime Dashboard
 
-This demo is about the power of using Twilio realtime Automated Speech Recoginition (ASR) and Intent analysis system (Dialogflow) in an IVR. Because Twilio makes it so easy to collect customer speech and related intent, one of the business benefits is direct access to what your customers are calling for and saying so the calls can be router accurately.  
+This demo is about the power of using Twilio realtime Automated Speech Recoginition (ASR) and Intent analysis system (Dialogflow) in an IVR. Because Twilio makes it so easy to collect customer speech and related intent, one of the business benefits is direct access to what your customers are calling for and saying so the calls can be routed accurately.  
 
 Let's say your organisation want to implement a Speech or Chat bot in your customer journey.  The first question that arises is how should the bot be designed, what intents will it recognise so the calls are routed correctly with the right context to the customer care agent.  There are two options to go about - one is to use your own judgement/guess work to design the intents the bot will recognise.  Or, you can directly listen to your customers and create the best experience.  That's exactly what some of our most brand concious customers have done.  They integrated this code into their production contact centre.  Once they collected thousands of customer speech phrases, they've started refining their bot for most accurate intent based routing.
 
